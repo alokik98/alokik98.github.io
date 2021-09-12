@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://alokik.me/</loc>
+    <lastmod>2021-09-13T04:00:09+05:30</lastmod>
+  </url><url>
+    <loc>http://alokik.me/blog/</loc>
+    <lastmod>2021-09-13T03:58:51+05:30</lastmod>
+  </url><url>
+    <loc>http://alokik.me/categories/</loc>
+    <lastmod>2021-09-13T03:58:51+05:30</lastmod>
+  </url><url>
+    <loc>http://alokik.me/blog/first-blog/</loc>
+    <lastmod>2021-09-13T03:58:51+05:30</lastmod>
+  </url><url>
+    <loc>http://alokik.me/tags/lorem/</loc>
+    <lastmod>2021-09-13T03:58:51+05:30</lastmod>
+  </url><url>
+    <loc>http://alokik.me/tags/noob/</loc>
+    <lastmod>2021-09-13T03:58:51+05:30</lastmod>
+  </url><url>
+    <loc>http://alokik.me/categories/software/</loc>
+    <lastmod>2021-09-13T03:58:51+05:30</lastmod>
+  </url><url>
+    <loc>http://alokik.me/tags/</loc>
+    <lastmod>2021-09-13T03:58:51+05:30</lastmod>
+  </url>
+</urlset>

@@ -1,0 +1,74 @@
+@font-face {
+    font-family: lora;
+    src: url(../fonts/Lora-Regular.ttf);
+}
+
+body{
+    padding: 20px;
+    margin: auto;
+    max-width: 900px;
+    font-family: lora;
+}
+
+article img{
+  max-width: 750px;
+}
+
+header h1 {
+    text-decoration: underline;
+}
+
+a{
+
+}
+
+figcaption p{
+    padding: 0px;
+    margin: 0px;
+}
+
+figcaption{
+    font-size: 80%;
+}
+
+div{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.center{
+    margin: auto;
+    color: green;
+}
+
+article h1:before{
+    content: "# ";
+}
+
+.search{
+    float: right;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+
+table td, table th{
+    padding: 3px;    
+    border: 1px solid black;
+}
+
+pre{
+    padding: 2%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 80%;
+  }
+  img{
+    max-width: 250px;
+  }
+}
