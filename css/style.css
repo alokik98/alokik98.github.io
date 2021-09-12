@@ -1,13 +1,7 @@
-@font-face {
-    font-family: lora;
-    src: url(../fonts/Lora-Regular.ttf);
-}
-
 body{
     padding: 20px;
     margin: auto;
     max-width: 900px;
-    font-family: lora;
 }
 
 article img{

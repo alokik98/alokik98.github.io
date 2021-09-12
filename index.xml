@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>About</title>
+      <link>http://alokik.me/about/</link>
+      <pubDate>Mon, 13 Sep 2021 04:00:32 +0530</pubDate>
+      
+      <guid>http://alokik.me/about/</guid>
+      <description>This is a about page. I am a guy.</description>
+    </item>
+    
+    <item>
       <title>First Blog</title>
       <link>http://alokik.me/blog/first-blog/</link>
       <pubDate>Mon, 13 Sep 2021 03:58:51 +0530</pubDate>
