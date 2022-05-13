@@ -238,8 +238,7 @@
             <h5>Get in touch</h5>
             <p>
               I'm very approachable and would love to speak to you. Feel free to
-              send me an email, you can also connect with me on linkedin or
-              simply fill the enquiry form.
+              connect with me on linkedin or simply fill the enquiry form.
             </p>
             <p>&#9993; alokikkanch@gmail.com</p>
             <div class="links">
@@ -271,17 +270,35 @@
             </div>
           </div>
           <div class="send_msg">
-            <form action="mailto:alokikkanch@gmail.com">
+            <form
+              action="https://formsubmit.co/alokikkanch@gmail.com"
+              method="POST"
+              id="form"
+            >
               <h5>Send me a message</h5>
-              <input type="text" name="name" placeholder="Name" id="" /> <br />
+              <input
+                type="text"
+                name="name"
+                placeholder="Name"
+                id="name"
+                required
+              />
+              <br />
               <input
                 type="email"
                 name="email"
                 placeholder="Email Address"
-                id=""
+                id="email"
+                required
               />
               <br />
-              <input type="text" name="subject" placeholder="Subject" id="" />
+              <input
+                type="text"
+                name="_subject"
+                placeholder="Subject"
+                id="subject"
+                required
+              />
               <br />
               <textarea
                 name="message"
@@ -289,9 +306,16 @@
                 cols="30"
                 rows="5"
                 placeholder="Your message"
+                required
               ></textarea>
               <br />
               <button type="submit">Send message</button>
+              <input
+                type="hidden"
+                name="_next"
+                value="https://www.alokik.me/pages/thanks.html"
+              />
+              <input type="hidden" name="_captcha" value="false" />
             </form>
           </div>
         </div>
@@ -307,5 +331,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="./script.js"></script>
   </body>
 </html>
