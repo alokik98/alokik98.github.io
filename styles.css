@@ -227,43 +227,6 @@ a:visited {
     margin-bottom: 10px;
 }
 
-#status {
-    margin-top: 10px;
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 10px;
-}
-
-#status.success {
-    background-color: rgb(203, 153, 250);
-    animation: status 4s ease forwards;
-    color: white;
-}
-
-#status.error {
-    background-color: rgb(250,129,92);
-    color: white;
-    animation: status 4s ease forwards;
-}
-
-@keyframes status {
-    0% {
-        opacity: 1;
-        pointer-events: all;
-    }
-    90% {
-        opacity: 1;
-        pointer-events: all;
-    }
-    100%{
-        opacity: 0;
-        pointer-events: none;
-    }
-}
-
 .info {
     display: flex;
     justify-content: center;
@@ -280,8 +243,42 @@ a:visited {
 /* Media Queries */
 
 @media only screen and (min-width: 0px) and (max-width: 320px) {
+    .section {
+        max-width: 100%;
+        max-height: fit-content;
+    }
+
+    .hero-text {
+        padding-top: 8rem;
+        padding-left: 1rem;
+        font-size: 2rem;
+        line-height: normal;
+        height: 98.35%;
+    }
+
+    #project h2{
+        padding-top: 20px;
+        font-size: 2rem;
+    }
+    
     #project .carousel {
         margin-top: 20px;
+    }
+
+    #project1 img {
+        width: 100%;
+    }
+
+    #project1 h3 {
+        padding-top: 10px;
+        font-size: 1.5rem;
+    }
+
+    #project1 p {
+        font-size: 1rem;
+        line-height: normal;
+        width: 210px;
+        text-align: justify;
     }
 
     .skills_ {
@@ -365,10 +362,12 @@ a:visited {
 
     #project h2 {
         padding: 30px;
+        font-size: 2rem;
     }
 
     #project1 img {
         width: 100%;
+        height: 90%;
     }
 
     #project1 h3 {
@@ -389,7 +388,7 @@ a:visited {
     }
 
     .heading {
-        margin-top: 10px;
+        margin-top: 80px;
         width: 5em;
         height: 6rem;
         font-size: 3rem;
@@ -400,7 +399,7 @@ a:visited {
     }
 
     .text {
-        margin-left: 25px;
+        margin-left: 65px;
     }
 
     .text h4 {
@@ -410,7 +409,7 @@ a:visited {
     }
 
     .text p {
-        width: 306px;
+        width: 300px;
         height: 150px;
         font-size: 1rem;
     }
@@ -422,6 +421,7 @@ a:visited {
     .contact .container {
         width: 90vw;
         height: max-content;
+        margin-bottom: 10em;
     }
 
     .contact .wrap {
@@ -432,6 +432,7 @@ a:visited {
 
     .get_in_touch p {
         width: 100%;
+        text-align: justify;
     }
 
     .wrap .links {
@@ -446,6 +447,10 @@ a:visited {
     .send_msg textarea {
         width: 97%;
     }
+
+    /* .info {
+        padding-top: 2rem;
+    } */
 }
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
@@ -573,6 +578,15 @@ a:visited {
 }
 
 @media only screen and (min-width: 1024px) {
+    .hero-text {
+        padding-top: 2.5rem;
+    }
+
+    .hero-text p {
+        font-size: 2rem;
+        line-height: normal;
+    }
+    
     .row {
         min-height: fit-content;
     }
@@ -597,6 +611,15 @@ a:visited {
 
     }
 
+    .skills_ {
+        padding-top: 12em;
+    }
+
+    .contact .container {
+        width: 90vw;
+        height: max-content;
+        margin-bottom: 8em;
+    }
 }
 
 @media only screen and (min-width: 1440px) {
