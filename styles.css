@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    font-family: "Poppins";
+    overflow-x: hidden;
+}
+
+hero-image {
+    height: 100vh;
+}
+
+li a {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255)}
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("./images/Homepage_1.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    height: 90.35%;
+    color: white;
+    padding-left: 6rem;
+    padding-top: 15rem;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 5rem;
+}
+
+button {
+    background-image: linear-gradient(to right, rgb(201, 97, 222), rgb(41, 84, 163));
+    background-repeat: no-repeat;
+    width: 222px;
+    height: 63px;
+}
+
+#project {
+    max-height: 70vh;
+}
+
+#project h2 {
+    font-size: 3rem;
+}
+
+#project1 img{
+    border-radius: 25px;
+    width: 35vw;
+}
+
+#project1 h3 {
+    font-size: 2.75rem;
+    text-decoration: underline;
+}
+
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#project1 p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-top: 10px;
+    width: 540px;
+    line-height: 2.5rem;
+}
+
+.skills {
+    max-width: 100vw;
+    background-color: #0f103f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.heading {
+    width: 350px;
+    height: 115px;
+    margin: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(201, 97, 222), rgb(41, 84, 163));
+    border-radius: 30px;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.about_me {
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0f103f;
+}
+
+.about_me .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 630px;
+    height: 630px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, rgb(201, 97, 222),
+        rgb(41, 84, 163));
+}
+
+.text {
+    margin-top: -80px;
+}
+
+.text h4 {
+    width: 116px;
+    height: 36px;
+    font-size: 20px;
+}
+
+.text p {
+    width: 306px;
+    height: 150px;
+    font-size: 18px;
+}
+
+.contact {
+    background-color: #0f103f;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .container {
+    margin-top: 5rem;
+    width: 900px;
+    height: 600px;
+    background-color: rgba(47, 47, 138, 90%);
+    border-radius: 30px;
+    color: white;
+}
+
+.wrap {
+    margin-top: 53px;
+    margin-left: 91px;
+    margin-right: 91px;
+}
+
+.get_in_touch p {
+    width: 60%;
+    padding-top: 1rem;
+}
+
+.send_msg input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 30%);
+    border: none;
+    border-radius: 10px;
+}
+
+.send_msg input::placeholder {
+    color: white;
+}
+
+.send_msg textarea {
+    margin: 8px 0;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 30%);
+    border: none;
+    border-radius: 10px;
+}
+
+.send_msg textarea::placeholder {
+    color: white;
+}
+
+.send_msg button {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f103f;
+    color: white;
+    border-top: 1px solid rgba(255, 255, 255, 30%);
+}
+
+.info p{
+    padding: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 375px) {
+    .section {
+        max-width: 100%;
+        max-height: fit-content;
+    }
+    
+    .hero-text {
+        padding-top: 8rem;
+        padding-left: 1rem;
+    }
+
+    #project {
+        max-height: fit-content;
+    }
+
+    .heading {
+        margin-top: 10px;
+        width: 5em;
+        height: 6rem;
+        font-size: 3rem;
+    }
+
+    .text {
+        margin-left: 25px;
+    }
+    
+    .text h4 {
+        width: 106px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    .text p {
+        width: 306px;
+        height: 150px;
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .hero-text{
+        height: 91.23%;
+        padding-left: 1rem;
+        font-size: 2.5rem;
+        line-height: normal;
+    }
+
+    #project {
+        max-height: max-content;
+    }
+
+    #project h2 {
+        padding-top: 1.5rem;
+        font-size: 2rem;
+    }
+
+    #project1 img {
+        margin-top: 1rem;
+        width: 50vw;
+        height: 20vh;
+        border-radius: 15px;
+    }
+
+    #project1 h3 {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #project1 p {
+        font-size: 1rem;
+        line-height: normal;
+        width: 60vw;
+    }
+
+    .about_me .container {
+        width: 425px;
+        height: 400px;
+    }
+
+    .text {
+        margin-top: -60px;
+    }
+
+    .text h4 {
+        width: 106px;
+        height: 36px;
+        font-size: 1.25rem;
+    }
+
+    .text p {
+        width: 306px;
+        height: 150px;
+        font-size: 1rem;
+    }
+
+    .contact {
+        min-height: 100vh;
+    }
+
+    .contact .container {
+        width: 90vw;
+        height: max-content;
+    }
+
+    .contact .wrap {
+        flex-direction: column;
+        margin: 10px 20px;
+        justify-content: start;
+    }
+
+    .get_in_touch p {
+        width: 100%;
+    }
+
+    .send_msg {
+        border-top: 1px solid rgba(255, 255, 255, 30%);
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .hero-image {
+        max-width: 100%;
+        max-height: fit-content;
+    }
+
+    .hero-text {
+        height: 88%;
+        padding-top: 8rem;
+        padding-left: 2rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
+
+    #project h2 {
+        padding-top: 1rem;
+        font-size: 2.25rem;
+    }
+
+    #project1 {
+        padding-top: 2rem;
+    }
+
+    #project1 img {
+        width: 60vw;
+    }
+
+    #project1 h3 {
+        padding-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    #project1 p {
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+        .get_in_touch p {
+            width: 90%;
+            text-align: justify;
+        }
+}
+
+@media only screen and (min-width: 1024px){
+    .row {
+        min-height: fit-content;
+    }
+
+    #project{
+        min-height: 90vh;
+    }
+
+    
+    #project1 img {
+        width: 50vw;
+    }
+    
+    #project1 h3 {
+        font-size: 2rem;
+        padding-top: 1rem;
+    }
+
+    #project1 p {
+        font-size: 1.25rem;
+        line-height: normal;
+
+    }
+    
+}
+
+@media only screen and (min-width: 1440px){
+    #project{
+        min-height: 50vh;
+    }
+    
+    #project1 img {
+        width: 30vw;
+        align-items: center;
+    }
+
+    #project1 h3 {
+        font-size: 2.25rem;
+    }
+
+    #project1 p {
+        font-size: 1.25rem;
+        line-height: normal;
+    }
+}
+
+@media only screen and (min-width: 2048px){
+    #navbarNav ul li {
+        font-size: 2em;
+    }
+
+    .hero-text {
+        padding-left: 3em;
+        line-height: 2em;
+    }
+
+    .hero-text p {
+        font-size: 1.5em;
+    }
+
+    .hero-text button {
+        width: 10em;
+        height: 3em;
+        font-size: 3rem;
+    }
+
+    #project {
+        max-height: 52vh;
+    }
+
+    .carousel {
+        height: 40vh;
+    }
+
+    .wrapper {
+        margin-top: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    #project h2 {
+        font-size: 5rem;
+    }
+
+    #project1 img {
+        border-radius: 25px;
+        width: 35vw;
+    }
+
+    #project1 h3 {
+        font-size: 3.5rem;
+    }
+
+    #project p {
+        font-size: 2rem;
+        width: fit-content;
+        line-height: 2.5rem;
+    }
+
+    .heading {
+        width: 7em;
+        height: 2em;
+        font-size: 6em;
+        border-radius: 40px;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    .hero-text {
+        height: 93%;
+    }
+
+    #project{
+        min-height: 60vh;
+    }
+
+
+    #project h2 {
+        font-size: 8rem;
+    }
+
+    #project1 img {
+        border-radius: 25px;
+        width: 35vw;
+    }
+
+    #project1 h3 {
+        font-size: 4rem;
+    }
+
+    #project p {
+        font-size: 2.5rem;
+        width: fit-content;
+        height: fit-content;
+        line-height: 3.5rem;
+    }
+
+    .heading {
+        width: 7em;
+        height: 2em;
+        font-size: 8em;
+        border-radius: 40px;
+    }
+}
