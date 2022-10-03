@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.36309dd8.css",
-    "main.js": "/static/js/main.38bd5555.js",
-    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
-    "static/media/Burtons.otf": "/static/media/Burtons.c46a2405716f236c4a9a.otf",
-    "index.html": "/index.html",
-    "main.36309dd8.css.map": "/static/css/main.36309dd8.css.map",
-    "main.38bd5555.js.map": "/static/js/main.38bd5555.js.map",
-    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/alokik.github.io/static/css/main.cd675eff.css",
+    "main.js": "/alokik.github.io/static/js/main.a3650a9f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/alokik.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Burtons.otf": "/alokik.github.io/static/media/Burtons.c46a2405716f236c4a9a.otf",
+    "index.html": "/alokik.github.io/index.html",
+    "main.cd675eff.css.map": "/alokik.github.io/static/css/main.cd675eff.css.map",
+    "main.a3650a9f.js.map": "/alokik.github.io/static/js/main.a3650a9f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/alokik.github.io/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36309dd8.css",
-    "static/js/main.38bd5555.js"
+    "static/css/main.cd675eff.css",
+    "static/js/main.a3650a9f.js"
   ]
 }
