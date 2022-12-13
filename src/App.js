@@ -21,7 +21,7 @@ function App() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white py-2 px-4 rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1VdSvdtSHIne6uhwUs-wuh541cm6VN11m/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1jI3Pq9eWLaBXPyFMMD5v60fkcEFJjpGN/view?usp=sharing"
                   rel="noreferrer"
                   target="_blank"
                 >
